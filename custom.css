@@ -1,0 +1,22 @@
+/**** 
+COLORS:
+Jack, replace this line with your link from coolors.co
+***/
+
+[data-theme='jackattack']{
+    --color-something: #putstuffhere;
+    --color-primary: #090C9B
+    --color-secondary:
+}
+
+
+
+/******** HERO ********/
+/******** HERO ********/
+/******** HERO ********/
+
+.hero-mesh {
+    background: url("https://s7d9.scene7.com/is/image/slalom/smart-city-skyline-photo?fmt=webp-alpha&metadata=none");
+    background-size: cover;
+    background-position: center center;
+}
