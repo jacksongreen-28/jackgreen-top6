@@ -1,10 +1,10 @@
 /**** 
 COLORS:
-Jack, replace this line with your link from coolors.co
+https://coolors.co/palette/3c3744-090c9b-3066be-b4c5e4-fbfff1
 ***/
 
 [data-theme='cities']{
-    --color-primary #3C3744;
+    --color-primary: #3C3744;
     --color-secondary: #090C9B;
     --color-lightblue: #3066BE;
     --color-lightgrey: #B4C5E4;
@@ -17,12 +17,14 @@ Jack, replace this line with your link from coolors.co
 /******** HERO ********/
 /******** HERO ********/
 .hero-title {
-   color-white
-   text-shadow 
+   color: var(--color-cream) !important;
+   text-shadow: 2px 2px 5px black;
 }
+
 .hero-support{
-    color:white;
+    color: var(--color-White);
 }
+
 .hero-mesh {
     background: url("https://s7d9.scene7.com/is/image/slalom/smart-city-skyline-photo?fmt=webp-alpha&metadata=none");
     background-size: cover;
@@ -40,4 +42,9 @@ Jack, replace this line with your link from coolors.co
 .is-nav-ready .site-nav.is-stuck {
     background: color-mix(in oklab, var(--color-base-100) 88%, transparent);
     backdrop-filter: blur(10px);
+}
+
+.hero-cue { 
+    border: 2px solid white;
+    display: none;
 }
